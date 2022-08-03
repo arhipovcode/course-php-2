@@ -1,0 +1,15 @@
+{
+    "name": "mikhailarkhipov/php-2",
+    "description": "Geekbrains Course Php-2",
+    "autoload": {
+        "psr-4": {
+            "Mikhailarkhipov\\Php2\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mikhail Arkhipov"
+        }
+    ],
+    "require": {}
+}
