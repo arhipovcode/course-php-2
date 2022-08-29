@@ -3,7 +3,6 @@
 namespace Mikhailarkhipov\Php2\Blog;
 
 use Mikhailarkhipov\Php2\Person\Name;
-use Mikhailarkhipov\Php2\Blog\UUID;
 
 class User
 {

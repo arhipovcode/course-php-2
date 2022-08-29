@@ -16,7 +16,6 @@ class Arguments
             // Пропускаем пустые значения
             if (empty($stringValue)) {
                 continue;
-
             }
             // Также приводим к строкам ключ
             $this->arguments[(string)$argument] = $stringValue;

@@ -2,9 +2,7 @@
 
 namespace Mikhailarkhipov\Php2\Blog;
 
-use Mikhailarkhipov\Php2\Blog\UUID;
-
-class Comment extends \Mikhailarkhipov\Php2\Blog\Post
+class Comment
 {
     private UUID $uuid;
     private UUID $post_uuid;

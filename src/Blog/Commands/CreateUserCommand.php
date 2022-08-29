@@ -13,7 +13,8 @@ class CreateUserCommand
 {
     private UsersRepositoryInterface $usersRepository;
 
-    // Команда зависит от контракта репозитория пользователей, // а не от конкретной реализации
+    // Команда зависит от контракта репозитория пользователей,
+    // а не от конкретной реализации
     public function __construct(UsersRepositoryInterface $usersRepository)
     {
         $this->usersRepository = $usersRepository;
