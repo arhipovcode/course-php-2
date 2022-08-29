@@ -33,14 +33,14 @@ $faker = Faker\Factory::create('ru_Ru');
 //    ));
 
 //Добавляю комментарий
-$commentRepository->save(
-    new Comment(
-        UUID::random(),
-        UUID::random(),
-        UUID::random(),
-        $faker->realText(rand(20, 30))
-    )
-);
+//$commentRepository->save(
+//    new Comment(
+//        UUID::random(),
+//        UUID::random(),
+//        UUID::random(),
+//        $faker->realText(rand(20, 30))
+//    )
+//);
 
 //try {
 //    // Запускаем команду
